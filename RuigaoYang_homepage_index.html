@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ruigao Yang</title>
+<style>
+  :root { --ink:#1a1a1a; --muted:#666; --accent:#0b57a4; --bg:#fdfdfb; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:Georgia,"Times New Roman",serif; background:var(--bg); color:var(--ink); line-height:1.6; }
+  .wrap { max-width:760px; margin:0 auto; padding:56px 24px 80px; }
+  header { border-bottom:2px solid var(--ink); padding-bottom:20px; margin-bottom:32px; }
+  h1 { font-size:2.1rem; letter-spacing:.5px; }
+  .affil { color:var(--muted); font-size:1.05rem; margin-top:6px; }
+  .links { margin-top:12px; font-size:.95rem; }
+  .links a { color:var(--accent); text-decoration:none; margin-right:18px; }
+  .links a:hover { text-decoration:underline; }
+  h2 { font-size:1.25rem; margin:34px 0 14px; border-bottom:1px solid #ccc; padding-bottom:4px; }
+  p, li { font-size:1rem; }
+  ul.pubs { list-style:none; }
+  ul.pubs li { margin-bottom:16px; padding-left:18px; position:relative; }
+  ul.pubs li:before { content:"\25AA"; position:absolute; left:0; color:var(--accent); }
+  .ptitle { font-weight:bold; }
+  .pauth { color:#333; }
+  .pvenue { color:var(--muted); font-style:italic; }
+  .tags span { display:inline-block; background:#eef9; background:#eef3f8; color:#284b63; border-radius:4px; padding:2px 10px; margin:0 6px 6px 0; font-size:.85rem; font-family:Helvetica,Arial,sans-serif; }
+  footer { margin-top:56px; color:var(--muted); font-size:.85rem; border-top:1px solid #ccc; padding-top:12px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Ruigao Yang</h1>
+    <div class="affil">Engineer, Alibaba Group, Hangzhou, China</div>
+    <div class="links">
+      <a href="mailto:ruigao.yrg@alibaba-inc.com">Email</a><!-- TODO: confirm public contact email -->
+      <a href="https://scholar.google.com/citations?user=TODO">Google Scholar</a><!-- TODO: paste your Scholar URL from your OpenReview profile -->
+      <a href="https://orcid.org/TODO">ORCID</a><!-- TODO: paste your ORCID URL from your OpenReview profile -->
+    </div>
+  </header>
+
+  <h2>Research Interests</h2>
+  <div class="tags">
+    <span>3D Indoor Scene Synthesis</span><span>Layout Generation</span><span>VLM-based Design</span>
+    <span>Reinforcement Learning</span><span>On-policy Distillation</span><span>Monte Carlo Tree Search</span>
+    <span>Long-horizon Decision Making</span>
+  </div>
+
+  <h2>Publications</h2>
+  <ul class="pubs">
+    <li><span class="ptitle">Learning Foresight in Fast Decision Models via Continuation-Aware Search Distillation</span><br>
+      <span class="pauth">Weichen Zhang, Yiyun Fei, <b>Ruigao Yang</b>, Jianan Jiang</span><br>
+      <span class="pvenue">Submitted to CVPR 2027</span></li>
+    <li><span class="ptitle">CoRule: Policy&ndash;Rulebase Co-Evolution for Interior Design Rule Induction</span><br>
+      <span class="pauth">Yuchen Ji, Wenyi Xiao, Jie Shi, Yiyun Fei, <b>Ruigao Yang</b>, Jianan Jiang</span><br>
+      <span class="pvenue">ACL ARR 2026 October submission</span></li>
+    <li><span class="ptitle">LivingFlow: Agentic Reinforcement Learning for Circulation-Aware Scene Refinement</span><br>
+      <span class="pauth">Wenyi Xiao, Yanbo Mao, Yiyun Fei, <b>Ruigao Yang</b>, Jianan Jiang</span><br>
+      <span class="pvenue">Submitted to ICLR 2027</span></li>
+    <li><span class="ptitle">Dovetail3D: Unifying Layout and Styling for VLM-Based 3D Indoor Scene Synthesis</span><br>
+      <span class="pauth">Yifan Xu, Wenyi Xiao, Yiyun Fei, Weichen Zhang, <b>Ruigao Yang</b>, Jianan Jiang, Yifan Chen</span><br>
+      <span class="pvenue">Submitted to ICLR 2027</span></li>
+    <li><span class="ptitle">PartMat: Material-Aware 3D Part Decomposition with a Single Global Latent</span><br>
+      <span class="pauth">Guangming Fu, Jin Song, Yiyun Fei, Guoqiu Li, <b>Ruigao Yang</b>, Jianan Jiang</span><br>
+      <span class="pvenue">Submitted to AAAI 2027</span></li>
+  </ul>
+
+  <h2>About</h2>
+  <p>I am an engineer at Alibaba Group, working on AI for 3D indoor scene understanding and synthesis,
+  and on fast structured decision models that internalize search-time foresight into single-forward-pass policies.
+  <!-- TODO: optional 1-2 sentence bio --></p>
+
+  <footer>Last updated: November 2026.</footer>
+</div>
+</body>
+</html>
